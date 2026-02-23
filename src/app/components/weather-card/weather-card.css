@@ -1,0 +1,15 @@
+.weather-container {
+  padding-top: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.weather-container h3 {
+  font-size: 30px;
+}
+
+.weather-container p {
+  font-size: 20px;
+}

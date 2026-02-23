@@ -1,0 +1,10 @@
+<div class="weather-container">
+  @if (weatherService.weatherCity()) {
+    <h3>Weather in {{ weatherService.weatherCity() }}</h3>
+    <p>Temperature {{ weatherService.weatherTemp() }} °C</p>
+    <p>Weather: {{ weatherService.weather() }}</p>
+  }
+  @else {
+    <p>Enter a city to discover a Pokemon!</p>
+  }
+</div>

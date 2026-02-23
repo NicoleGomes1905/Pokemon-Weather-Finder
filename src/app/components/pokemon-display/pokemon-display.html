@@ -1,0 +1,9 @@
+<div class="pokemon-container">
+  @if (weatherService.weatherCity() && pokemonService.pokemonImage()) {
+    <div @pokeSpawn [attr.id]="pokemonService.pokemonDetails()?.name">
+      <img [src]="pokemonService.pokemonImage()" alt="Pokemon">
+      <h3>{{ pokemonService.pokemonDetails()?.name }}</h3>
+      <img class="pokemon-type-tag" [src]="pokemonService.typePokemonIcon()" alt="Type">
+    </div>
+  }
+</div>
