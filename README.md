@@ -1,4 +1,4 @@
-```markdown
+
 # 🌦️ Pokemon Weather Finder
 
 An interactive application that uses real-time weather data to find Pokémon based on current local conditions, featuring dynamic animations and a responsive interface.
@@ -15,14 +15,12 @@ An interactive application that uses real-time weather data to find Pokémon bas
 * **PokeAPI & OpenWeather**: Integration with external APIs.
 
 ## 🛠️ Installation and Setup
-```bash
+
 # Install dependencies (ensure @angular/animations is included)
 npm install
 
 # Start the development server
 ng serve
-
-```
 
 ## 🧠 Technical Challenges Overcome
 
